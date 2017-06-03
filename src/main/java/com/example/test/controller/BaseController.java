@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BaseController {
 
-	@GetMapping("/a")
-	public String a() {
-		return "하이";
+	@GetMapping("/")
+	public String root() {
+		return "success deploy";
 	}
 
 }
